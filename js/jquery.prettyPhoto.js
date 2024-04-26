@@ -308,7 +308,7 @@
                             }
                         }
 
-                        movie = 'http://www.youtube.com/embed/'+movie_id;
+                        movie = 'https://www.youtube.com/embed/'+movie_id;
                         (getParam('rel',pp_images[set_position])) ? movie+="?rel="+getParam('rel',pp_images[set_position]) : movie+="?rel=1";
 
                         if (settings.autoplay) {
